@@ -57,6 +57,8 @@ Symbolic Link: filename + filename association
 
 ## Processes
 
+* The /proc file system is a virtual file system that provides an interface to kernel data structures in a form that looks like files and directories on a file system
+
 ### Inter-Process Communication (IPC)
 
 ## Signals
