@@ -55,7 +55,17 @@ Directories:special type of file, whose contents are a table of *links*.
 Link: a filename + file reference association
 Symbolic Link: filename + filename association
 
-### The shell
+## Processes
+
+### Inter-Process Communication (IPC)
+
+## Signals
+
+Signals are essentially "software interrupts". They are sent to specific processes.
+Signals can be ignored, used to kill the process, or get suspended until another resume signal arrives.
+You can register event handlers for them.
+
+## The shell
 
 On Linux, the shell is just a user process.
 
