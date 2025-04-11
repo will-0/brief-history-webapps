@@ -59,6 +59,10 @@ Symbolic Link: filename + filename association
 
 * The /proc file system is a virtual file system that provides an interface to kernel data structures in a form that looks like files and directories on a file system
 
+### Virtual Memory
+
+* For each process, there's a page table that maps pages in the virtual memory to pages in the actual RAM
+
 ### Inter-Process Communication (IPC)
 
 ## Signals
@@ -70,6 +74,7 @@ You can register event handlers for them.
 ## The shell
 
 On Linux, the shell is just a user process.
+It takes in user arguments and generates processes accordingly.
 
 ## Fun Facts
 
