@@ -30,3 +30,9 @@ You can use the closure of file descriptors as a way to synchronize processes. S
   - There's an exception to this rule if using UNIX domain sockets, but this is abnormal.
 * It's implemented with a pipe buffer. Write will block until some data has been made available in pipe.
 * Linux pipe capacity is 65,536 since 2.6.11
+
+## FIFOs
+
+FIFOs are basically just named pipes. The only difference is because you create them separately, you have to actually open them before use.
+
+They have an unusual behaviour where `open` blocks until there exists both a read and write file descriptor.

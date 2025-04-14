@@ -2,6 +2,7 @@
     "files.associations": {
         ".env": "shellscript",
         "unistd.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "fcntl.h": "c"
     }
 }
