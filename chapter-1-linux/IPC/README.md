@@ -9,6 +9,7 @@ Pipes are essentially a FIFO data structure. The sending process is able to add 
 ### C implementation
 
 A call to `int pipe(int filedes[2])` instantiates two ***open*** file descriptors (the read and write ends, respectively).
+A read will generate an EOF response ONLY when all file descriptors (i.e. including an forked processes) close the file.
 
 ### Key points
 
