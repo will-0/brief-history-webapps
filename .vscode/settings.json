@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        ".env": "shellscript",
+        "unistd.h": "c",
+        "stdio.h": "c"
+    }
+}

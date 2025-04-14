@@ -14,7 +14,8 @@ int main(void)
     int res;
 
     shell_pid = getpid();
-    printf("Enter the absolute path to a program that provides no arguments");
+    printf("Shell ID: %d\n", shell_pid);
+    printf("Enter the absolute path to a program that provides no arguments\n");
 
     while (1)
     {
