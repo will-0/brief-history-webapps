@@ -20,7 +20,7 @@ In general, also good for memory. Pipe remains open until all file descriptors i
 
 ### Usage for synchronization
 
-
+You can use the closure of file descriptors as a way to synchronize processes. See [syncro-pipe.c](./syncro-pipe.c).
 
 ### Key points
 
